@@ -39,7 +39,7 @@ from datetime import datetime
 try:
     import requests
 except ImportError:
-    sys.exit("❌  'requests' is not installed. Run: pip install requests")
+    sys.exit("  'requests' is not installed. Run: pip install requests")
 
 try:
     import matplotlib.pyplot as plt
@@ -47,7 +47,7 @@ try:
     MATPLOTLIB_AVAILABLE = True
 except ImportError:
     MATPLOTLIB_AVAILABLE = False
-    print("⚠️  'matplotlib' not found – plotting disabled. Run: pip install matplotlib")
+    print("  'matplotlib' not found – plotting disabled. Run: pip install matplotlib")
 
 
 # ════════════════════════════════════════════════════════════════════════════
